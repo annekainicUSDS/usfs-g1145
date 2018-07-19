@@ -1,7 +1,7 @@
 {
-  "name": "us-forms-system-starter-app",
-  "version": "1.0.0",
-  "description": "Test US Forms System",
+  "name": "G-1145",
+  "version": "0.0.1",
+  "description": "Test version of G-1145 built with US Forms System",
   "main": "index.js",
   "directories": {},
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usds/us-forms-system-starter-app.git"
+    "url": "git+https://github.com/annekainicUSDS/usfs-g1145.git"
   },
   "author": "",
   "license": "ISC",
