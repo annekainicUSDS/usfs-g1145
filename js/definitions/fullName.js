@@ -1,12 +1,4 @@
-const suffixes = [
-  'Jr.',
-  'Sr.',
-  'II',
-  'III',
-  'IV'
-];
-
-const schema = {
+export const schema = {
   type: 'object',
   properties: {
     first: {
@@ -24,10 +16,6 @@ const schema = {
       minLength: 2,
       maxLength: 30
     },
-    suffix: {
-      type: 'string',
-      'enum': suffixes
-    },
   },
   required: [
     'first',
@@ -35,4 +23,14 @@ const schema = {
   ]
 };
 
-export default schema;
+export const uiSchema = {
+  first: {
+    'ui:title': 'Applicant/petitioner full first name'
+  },
+  last: {
+    'ui:title': 'Applicant/petitioner full last name'
+  },
+  middle: {
+    'ui:title': 'Applicant/petitioner full middle name'
+  }
+};
